@@ -132,4 +132,4 @@ There are several hooks to modify and adapt the render engine
 | ``$this`` | object | Current instance of Handlebars engine |
 
 ## Credits
-[@iantsch](https://twitter.com/iantsch) - [web developer](https://mbt.wien) behind this and other project.
+[@iantsch](https://twitter.com/iantsch) - [web developer](https://mbt.wien) behind this and other projects.
