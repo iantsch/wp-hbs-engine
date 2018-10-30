@@ -130,3 +130,6 @@ There are several hooks to modify and adapt the render engine
 | Parameter | Type | Description |
 |---|---|---|
 | ``$this`` | object | Current instance of Handlebars engine |
+
+## Credits
+[@iantsch](https://twitter.com/iantsch) - [web developer](https://mbt.wien) behind this and other project.
