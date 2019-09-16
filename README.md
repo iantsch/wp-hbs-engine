@@ -26,6 +26,8 @@ You need to load the `zordius/lightncandy` dependency via composer. Install comp
 
 The plugin needs a folder with write permissions for caching the handlebar files. It tries to create the folder `wp-content/plugins/wp-hbs-engine/cache`.
 
+The plugin will try to load partials from the default folder `src/templates/partials` within your current theme. If the folder does not exist please add it (or use the filter hook to adapt).
+
 ## Usage
 
 Setup and modify the render engine to your needs in your ``functions.php`` or your plugin
