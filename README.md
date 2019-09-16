@@ -2,10 +2,10 @@
 
 [![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)]() [![tag](https://img.shields.io/badge/tag-v0.0.1-lightgrey.svg?style=flat-square)]()
 
-Renders Handlebars/Moustache templates within your WordPress Theme/Plugin. Handlebars rendering is powered by [LightnCandy](https://github.com/zordius/lightncandy)
+Renders Handlebars/Moustache templates within your WordPress Theme/Plugin. Handlebars rendering is powered by [LightnCandy](https://github.com/zordius/lightncandy). Tested with WordPress 5.2.3
 
 ## Installation
-You can install this must-use plugin two ways
+You can install this (must-use) plugin two ways
 
 ### Via Composer
 
@@ -19,6 +19,12 @@ $ php composer require iantsch/wp-hbs-engine
 
 Download/fork this repository and copy the plugin-folder into `wp-content/plugins/`.
 If you visit your Plugin section in the `wp-admin` area, activate it and you are good to go.
+
+### Troubleshoots
+
+You need to load the `zordius/lightncandy` dependency via composer. Install composer and run `$ composer install` in the `wp-content/plugins/wp-hbs-engine` folder.
+
+The plugin needs a folder with write permissions for caching the handlebar files. It tries to create the folder `wp-content/plugins/wp-hbs-engine/cache`.
 
 ## Usage
 
