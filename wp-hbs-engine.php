@@ -17,8 +17,8 @@ namespace MBT {
 namespace {
 	use MBT\Engine\Handlebars;
 
-	if (file_exists('vendor/autoload.php')) {
-		require "vendor/autoload.php";
+	if (file_exists( MBT_ENGINE_DIR . 'vendor/autoload.php' )) {
+		require MBT_ENGINE_DIR . "vendor/autoload.php";
 	}
 
 	if (!function_exists('get_hbs_template')) {
